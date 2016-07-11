@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 ul {
   list-style: none;
   padding: 0
@@ -15,14 +18,19 @@ ul {
 }
 
 .sidebar {
-  width:20%;
-  min-width: 320px;
+  margin-left: 2%;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  width:15%;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 .logo {
-  width: 300px;
-  padding: 10px;
+  width: 90%;
+  padding: 5%;
 }
 
 .bg-slideshow{
@@ -70,4 +78,26 @@ nav a:hover {
   left: 25%;
   width: 50%;
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.contact-link {
+  color: #a2915c;
+}
+
+.contact-link:hover {
+  text-decoration: underline
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
+section {
+  padding-left: 0;
 }
