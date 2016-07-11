@@ -1,0 +1,54 @@
+ul {
+  list-style: none;
+  padding: 0
+}
+
+.call-me {
+  color: white;
+  background: #a2915c;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.phone-number {
+  font-size: 1.5em;
+}
+
+.sidebar {
+  width:20%;
+  min-width: 320px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  width: 300px;
+  padding: 10px;
+}
+
+.bg-slideshow{
+  position: absolute;
+  z-index: -1;
+}
+
+#bg-img {
+  position: absolute;
+  height: 800px;
+  width: 1600px;
+  z-index: -2;
+}
+
+li {
+  padding: 5px 0;
+}
+
+footer {
+  width: 66%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer p {
+  margin: 0.25em;
+  text-align: center;
+}
